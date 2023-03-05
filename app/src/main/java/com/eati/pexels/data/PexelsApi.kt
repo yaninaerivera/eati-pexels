@@ -10,7 +10,7 @@ import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Query
 
-private const val ACCESS_TOKEN = "tCyUGveITEUgthKRpXQiG6FBmPAultXQ7USKF5b3PcyHlEQF0DVQRwzD"
+private const val ACCESS_TOKEN = "SAZtRaOcwT6x7H5rIi9qUZGdi4crZA7pqYHkgnbv46VEfVaCgmFwVTYm"
 
 // https://www.pexels.com/api/documentation/#photos-search
 interface PexelsApi {

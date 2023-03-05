@@ -15,6 +15,7 @@ class PhotosRepository {
             photographer = it.photographer,
             photographerUrl = it.photographerUrl,
             photographerId = it.photographerId,
+            sourceImage = it.src.original,
             avgColor = it.avgColor,
             liked = it.liked,
             alt = it.alt,

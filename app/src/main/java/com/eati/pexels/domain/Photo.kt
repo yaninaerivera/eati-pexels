@@ -8,6 +8,7 @@ data class Photo(
     val photographer: String,
     val photographerUrl: String,
     val photographerId: Int,
+    val sourceImage: String,
     val avgColor: String,
     val liked: Boolean,
     val alt: String,
