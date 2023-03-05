@@ -174,8 +174,7 @@ fun Paragraph(photo: Photo, modifier : Modifier = Modifier) {
             ) {
                 withStyle(
                     style = SpanStyle(
-                        fontSize = 15.sp,
-                        //color = Color.Black
+                        fontSize = 15.sp
                     )
                 ) {
                     append("Description: ")
@@ -184,8 +183,7 @@ fun Paragraph(photo: Photo, modifier : Modifier = Modifier) {
                 }
                 withStyle(
                     style = SpanStyle(
-                        fontSize = 12.sp,
-                        //color = Color.Black
+                        fontSize = 12.sp
                     )
                 ) {
                     append("Size: ")
@@ -196,8 +194,7 @@ fun Paragraph(photo: Photo, modifier : Modifier = Modifier) {
                 }
                 withStyle(
                     style = SpanStyle(
-                        fontSize = 11.sp,
-                        //color = Color.Black
+                        fontSize = 11.sp
                     )
                 ) {
                     append("AvgColor: ")
@@ -208,7 +205,6 @@ fun Paragraph(photo: Photo, modifier : Modifier = Modifier) {
         }
     )
 }
-
 
 @Composable
 fun FavoriteIcon(isFavorite:Boolean) {
@@ -221,7 +217,6 @@ fun FavoriteIcon(isFavorite:Boolean) {
         },
         contentDescription = null
     )
-
 }
 
 
